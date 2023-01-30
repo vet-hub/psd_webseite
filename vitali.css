@@ -1,0 +1,115 @@
+@font-face {
+   font-family: Roboto;
+   src: url(./doc/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+   font-family: Roboto;
+   src: url(./doc/fonts/Roboto/Roboto-Bold.ttf);
+	font-weight: bold;
+}
+/* ... andere Fonts */
+
+
+
+html {
+	background-color: white;
+}
+
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: #eeeeee;
+}
+
+
+
+.story-article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 9%;
+	/**/
+	box-sizing: border-box;
+	max-width: 940px;
+	padding: 5% 3% 5% 0;
+	margin: 0 auto;
+	color: #888888;
+	background-color: white;
+	/**/
+}
+
+.story-article .story-logo {
+	flex-basis: 30%;
+}
+
+.story-article .story-text {
+	flex-basis: 70%;
+}
+.story-article .story-logo .img-logo {
+	max-width: 100%;
+}
+
+.story-article h2 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: black;
+}
+
+.story-article p {
+	margin-bottom: 1.6rem;
+	font-family: Roboto, sans-serif;
+	font-size: 0.95rem;
+	line-height: 1.5;
+}
+
+.story-article button {
+	padding: 0.6rem 1rem;
+	color: #7ad9cc;
+	border: 1px solid #7ad9cc;
+	font-weight: bold;
+	background-color: white;
+
+}
+
+
+
+
+/* section watch */
+
+.watch-article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/**/
+	position: relative;
+}
+
+.watch-article .bg_img {
+	max-width: 100%;
+}
+
+.watch-article .play_img {
+	position: absolute;
+	margin: 0 auto;
+	/* left: 0; */
+	/* right: 0; */
+	cursor: pointer;
+}
+
+.watch-article-bg_img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/**/
+	height: 550px;
+	max-width: 100%;
+	background-image: url('img/bgk-middle.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.watch-article-bg_img img{
+	cursor: pointer;
+}
