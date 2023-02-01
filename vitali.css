@@ -67,12 +67,12 @@ body {
 }
 
 .story-article button {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1rem;
 	padding: 0.6rem 1rem;
 	color: #7ad9cc;
 	border: 1px solid #7ad9cc;
-	font-weight: bold;
 	background-color: white;
-
 }
 
 

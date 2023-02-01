@@ -1,35 +1,23 @@
+
 * {
-    margin: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-nav {
-    color: red;
+body {
+	max-width: 1600px;
+	margin: 0 auto;
 }
 
-#hero-section {
-    color: blue;
-}
-
-#our_story-section {
-    color: green;
-}
-
-#watch-section {
-    color: darkred
-}
-
-#expertise-section {
-    color: fuchsia
-}
-
-#team-section {
-    color: yellowgreen
-}
-
-#contact_client-section {
-    color: lightsalmon
-}
-
-footer {
-    color: blueviolet;
+button {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	color:#00E0D0;
+	border: 1px solid #00E0D0;
+	border-radius: 5px;
+	padding:1em;
+	background-color: transparent;
+	transition: color 0.3s ease-out;
 }
