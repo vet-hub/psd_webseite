@@ -1,0 +1,299 @@
+* {
+    margin: 0 auto;
+}
+
+nav {
+    color: red;
+}
+
+#hero-section {
+    color: blue;
+}
+
+#our_story-section {
+    color: green;
+}
+
+#watch-section {
+    color: darkred
+}
+
+
+/*----------EXPERTISE---------*/
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#expertise {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 960px;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.expertise-Überschrift {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.expertise-unterteilungen {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 905px;
+}
+
+.unterstrich1 {
+    width: 15%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+
+.Unterteilungen {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    height: 220px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 550;
+    font-style: bold;
+    font-display: swap;
+}
+
+/*---------- png ----------*/ 
+
+#screen {
+    padding: 23px 10px 15px;
+}
+#pen {
+    padding: 31px 10px 15px;
+}
+#mobile {
+    padding: 23px 10px 15px;
+}
+#graph {
+    padding: 23px 10px 15px;
+}
+#gameboy {
+    padding: 23px 10px 15px;
+}
+#heart {
+    padding: 23px 10px 15px;
+}
+
+
+/*---------- Tabellenlinie ----------*/ 
+
+#Eins {
+
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgrey;
+}
+
+#Zwei {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+#Drei {
+    border-bottom: 1px solid lightgray;
+}
+#Vier {
+    border-right: 1px solid lightgray;
+}
+
+#Fünf {
+    border-right: 1px solid lightgray;
+}
+
+
+.H1expertise {
+    font-size: 20px;
+    margin: 35px 50px 6px 50px;
+    font-family: Playfair Display;
+}
+
+
+.text {
+    padding: 7px 18px 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 70;
+}
+
+/*---------- TEAM SECTION ----------*/
+
+
+#team-section {
+    display: flex;
+    background-image: url('img/bgk-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.H1Teamsection {
+    font-size: 20px;
+    margin: 15px 50px 6px 50px;
+    font-family: Playfair Display;
+}
+
+
+.teamsection-Überschrift {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.unterstrich2 {
+    width: 15%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+
+.oberbox {
+    display: flex;
+    width: 940px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.A {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    width: 180px;
+    height: 285px;
+    text-align: center;
+    font-size: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.name {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 18px 10px 1px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 70px;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+
+.untername {   
+    color: white; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 70px;
+    font-size: 12px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 210px;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.unterschrift {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 70;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.footerbutton {
+    margin-bottom: 15px;
+}
+
+
+.HiringButton {
+    background-color: transparent;
+    border: 1px solid turquoise;
+    padding: 11px 19px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: turquoise; 
+    font-size: 12px;
+    margin-bottom: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact_client-section {
+    color: lightsalmon
+}
+
+footer {
+    color: blueviolet;
+}
