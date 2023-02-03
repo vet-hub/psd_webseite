@@ -1,3 +1,8 @@
+#our_story-section{
+	padding-left: 64px;
+    padding-right: 64px;
+}
+
 .story-article {
 	display: flex;
 	justify-content: center;
@@ -40,6 +45,8 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding-left: 64px;
+    padding-right: 64px;
 }
 
 .watch-article {
@@ -71,3 +78,23 @@
 	cursor: pointer;
 	padding-bottom: 24px;
 }
+
+
+@media screen and (max-width:720px) {
+    
+	#our_story-section {
+	padding-left: 32px;
+	padding-right: 32px;
+	}
+  
+  
+	}
+	
+	@media screen and (max-width:450px) {
+	  #our_story-section {
+			padding-left: 16px;
+			padding-right: 16px;
+			}
+		
+		 
+	}

@@ -8,6 +8,8 @@
     justify-content: space-around;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .expertise-ueberschrift {
@@ -31,11 +33,12 @@
     flex-wrap: wrap;
 }
 
-#col_expertise {
-    flex-grow: 1;
-    flex-basis: 33%;
 
+.unterteilungen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
 
 #col_expertise img {
     margin-bottom: 10%;
@@ -122,33 +125,9 @@
     background-color: lightgray;
 }
 
-.unterteilungen {
-    display: flex;
-    flex-wrap:wrap;
-    align-items: center;
-    text-align: center;
-}
 
 /*---------- png ----------*/ 
 
-#screen {
-    padding: 23px 10px 15px;
-}
-#pen {
-    padding: 31px 10px 15px;
-}
-#mobile {
-    padding: 23px 10px 15px;
-}
-#graph {
-    padding: 23px 10px 15px;
-}
-#gameboy {
-    padding: 23px 10px 15px;
-}
-#heart {
-    padding: 23px 10px 15px;
-}
 
 
 
@@ -162,7 +141,8 @@
     background-image: url('img/bgk-header.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding-left: 64px;
+    padding-right: 64px;
 
 }
 
@@ -284,6 +264,31 @@ h5 {
 
 
 
+@media screen and (max-width:720px) {
+    
+    #team-section {
+    padding-left: 32px;
+    padding-right: 32px;
+    }
+
+    #expertise {
+    padding-left: 32px;
+    padding-right: 32px;   
+    } 
+ 
+    }
+    
+    @media screen and (max-width:450px) {
+        #team-section {
+            padding-left: 16px;
+            padding-right: 16px;
+            }
+        
+            #expertise {
+            padding-left: 16px;
+            padding-right: 16px;   
+            } 
+    }
 
 
 
@@ -295,13 +300,3 @@ h5 {
 
 
 
-
-
-
-#contact_client-section {
-    color: lightsalmon
-}
-
-footer {
-    color: blueviolet;
-}

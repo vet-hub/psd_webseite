@@ -6,6 +6,8 @@
   max-width: 940px;
   margin:0 auto;
   flex-wrap: wrap;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 .contact {
@@ -30,25 +32,29 @@ form {
 }
 
 #form > form input {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 3%;
   margin-bottom: 3%;
-  width: 80%;
-  border: 1px solid #BFBEC1;
+  width: 90%;
+  border: 1px solid #bfbec1;
 }
 
 #form > form textarea {
   font-family: 'Roboto', sans-serif;
   border: 1px solid #BFBEC1;
   margin-bottom: 3%;
-  width: 80%;
+  width: 90%;
 }
 
-::placeholder {
+form ::placeholder {
   color: rgb(173, 173, 173);
   font-size: 1.01em;
   font-family: "Roboto", serif;
   font-weight: 500;
+}
+
+#clients h2 {
+  margin-left: 1.6em;
 }
 
 #zara {
@@ -67,9 +73,8 @@ form {
 #secondClientCol {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5em;
   flex: 1;
-  max-height: 480px;
+  max-height: 420px;
   align-items: center;
 }
 #firstClientCol > *,
@@ -77,3 +82,23 @@ form {
   margin: 1em;
   height: 4.3em;
 }
+
+
+@media screen and (max-width:720px) {
+    
+  #contact_client-section {
+  padding-left: 32px;
+  padding-right: 32px;
+  }
+
+
+  }
+  
+  @media screen and (max-width:450px) {
+    #contact_client-section {
+          padding-left: 16px;
+          padding-right: 16px;
+          }
+      
+       
+  }

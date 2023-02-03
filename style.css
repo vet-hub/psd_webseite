@@ -48,7 +48,7 @@ h4 {
     color:#00E0D0;
     border: 1px solid #00E0D0;
     border-radius: 5px;
-    padding:12px;
+    padding:8px 16px 8px 16px;
     background-color: transparent;
     transition: color 0.3s ease-out;
 }
@@ -62,12 +62,15 @@ h4 {
     color: #fff;
 }
 
-
-@media only screen and (max-width: 1024px) {
-    .hero-section {
-        margin-left: 15%;
-        margin-right: 5%;
-    }
+@media screen and (max-width:450px) {
+    h1 {
+            font-size:1.2em
+            }
 
 
+    h2 {
+        font-size:1.0em
+        }
 }
+
+   
