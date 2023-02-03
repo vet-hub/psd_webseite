@@ -79,14 +79,6 @@ header {
     padding-bottom: 5em;
 }
 
-.hero-content h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    color: white;
-    font-size: 2em;
-    padding-top: 4em;
-}
-
 .hero-content hr {
     border-color: #00E0D0;
     margin-top: 2em;
@@ -119,13 +111,6 @@ footer {
     margin: 0 auto;
     padding-top: 3%;
     padding-bottom: 3%
-}
-
-footer h4 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    color: #fff;
-    text-transform: uppercase;
 }
 
 .footer-col {
@@ -239,3 +224,8 @@ footer h4 {
     padding-right: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+
+
+
+}

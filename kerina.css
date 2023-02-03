@@ -1,55 +1,115 @@
-* {
-    margin: 0 auto;
-}
-
-nav {
-    color: red;
-}
-
-#hero-section {
-    color: blue;
-}
-
-#our_story-section {
-    color: green;
-}
-
-#watch-section {
-    color: darkred
-}
-
-
-/*----------EXPERTISE---------*/
-
-body {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 #expertise {
     background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    width: 960px;
-    height: 700px;
     display: flex;
+    max-width: 940px;
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.expertise-Überschrift {
+.expertise-ueberschrift {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
+.expertise-ueberschrift p {
+    color: #333333;
+    font-size: 0.9em;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05em;
+}
+
+
 .expertise-unterteilungen {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 905px;
+}
+
+#col_expertise {
+    flex-grow: 1;
+    flex-basis: 33%;
+
+}
+
+#col_expertise img {
+    margin-bottom: 10%;
+}
+
+#col_expertise h5 {
+    font-size: 0.8em;
+    margin-bottom: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color:#413D4B;
+}
+
+#col_expertise p {
+    font-family: Roboto;
+    font-size: 0.7em;
+    font-style: normal;
+    font-weight: 300;
+    color: #333;
+}
+
+#col_expertise .one {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:16px;
+}
+
+#col_expertise .two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:16px;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+#col_expertise .three {
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:16px
+}
+
+#col_expertise .four {
+    border-right: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:16px
+}
+
+#col_expertise .five {
+    border-right: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:16px
+}
+
+#col_expertise .six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:16px
 }
 
 .unterstrich1 {
@@ -62,26 +122,11 @@ body {
     background-color: lightgray;
 }
 
-
-.Unterteilungen {
+.unterteilungen {
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap:wrap;
     align-items: center;
     text-align: center;
-    height: 220px;
-    width: 300px;
-    font-size: 16px;
-}
-
-.one {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: 550;
-    font-style: bold;
-    font-display: swap;
 }
 
 /*---------- png ----------*/ 
@@ -106,76 +151,45 @@ body {
 }
 
 
-/*---------- Tabellenlinie ----------*/ 
-
-#Eins {
-
-    border-bottom: 1px solid lightgray;
-    border-right: 1px solid lightgrey;
-}
-
-#Zwei {
-    border-bottom: 1px solid lightgray;
-    border-right: 1px solid lightgray;
-}
-
-#Drei {
-    border-bottom: 1px solid lightgray;
-}
-#Vier {
-    border-right: 1px solid lightgray;
-}
-
-#Fünf {
-    border-right: 1px solid lightgray;
-}
 
 
-.H1expertise {
-    font-size: 20px;
-    margin: 35px 50px 6px 50px;
-    font-family: Playfair Display;
-}
-
-
-.text {
-    padding: 7px 18px 32px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 70;
-}
 
 /*---------- TEAM SECTION ----------*/
 
 
 #team-section {
-    display: flex;
+    
     background-image: url('img/bgk-header.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 660px;
+    
+
+}
+
+.team {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    width: 960px;
     margin: 0 auto;
-
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
-.H1Teamsection {
-    font-size: 20px;
-    margin: 15px 50px 6px 50px;
-    font-family: Playfair Display;
-}
-
-
-.teamsection-Überschrift {
+.teamsection-ueberschrift {
     text-align: center;
     display: flex;
     flex-direction: column;
     color: white;
     flex-wrap: wrap;
+}
+
+.teamsection-ueberschrift p {
+    color: #fff;
+    font-size: 0.9em;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05em;
 }
 
 .unterstrich2 {
@@ -191,17 +205,18 @@ body {
 
 .oberbox {
     display: flex;
-    width: 940px;
+    margin-top:20px;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap:1em
 }
 
 
 .A {
     display: flex;
     border: 1px solid rgb(255, 255, 255);
-    width: 180px;
+    width: 220px;
     height: 285px;
     text-align: center;
     font-size: 12px;
@@ -209,7 +224,7 @@ body {
     flex-direction: column;
 }
 
-h2 {
+h5 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -242,7 +257,7 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     height: 210px;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: rgb(255, 255, 255);
 }
 
@@ -257,22 +272,15 @@ h2 {
 
 .footerbutton {
     margin-bottom: 15px;
-}
-
-
-.HiringButton {
-    background-color: transparent;
-    border: 1px solid turquoise;
-    padding: 11px 19px;
-    text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    color: turquoise; 
-    font-size: 12px;
-    margin-bottom: 29px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-
+.footerbutton > button {
+    width:50%
+}
 
 
 

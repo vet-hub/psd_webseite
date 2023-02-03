@@ -5,25 +5,55 @@
 }
 
 body {
-
-	max-width: 1600px;
+	width: 100%;
 	margin: 0 auto;
-  box-sizing: border-box;
+    background-color:#fff ;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: white;
+    font-size: 2em;
+    padding-top: 4em;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color:#413D4B;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: white;
+    letter-spacing: 0.05em;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .section-button {
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     text-transform: uppercase;
     color:#00E0D0;
     border: 1px solid #00E0D0;
     border-radius: 5px;
-    padding:1em;
+    padding:12px;
     background-color: transparent;
     transition: color 0.3s ease-out;
 }
 
-button:hover {
+.section-button:hover {
     background-color: #00E0D0;
     color: white;
 }
@@ -33,3 +63,11 @@ button:hover {
 }
 
 
+@media only screen and (max-width: 1024px) {
+    .hero-section {
+        margin-left: 15%;
+        margin-right: 5%;
+    }
+
+
+}
